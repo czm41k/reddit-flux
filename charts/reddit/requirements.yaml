@@ -2,15 +2,15 @@
 dependencies:
   - name: ui
     version: 1.0.0
-    repository: "file://../ui"
+    repository: https://github.com/czm41k/ui.git
 
   - name: post
     version: 1.0.0
-    repository: "file://../post"
+    repository: https://github.com/czm41k/post.git
 
   - name: comment
     version: 1.0.0
-    repository: "file://../comment"
+    repository: https://github.com/czm41k/comment.git
 
   - name: mongodb
     version: 0.4.18
