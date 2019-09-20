@@ -1,8 +1,8 @@
 ---
 dependencies:
-  - name: ui
-    version: 1.0.1
-    repository: file://../ui
+  # - name: ui
+  #   version: 1.0.1
+  #   repository: file://../ui
 
   - name: post
     version: 1.0.0
