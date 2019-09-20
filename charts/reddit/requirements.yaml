@@ -2,15 +2,15 @@
 dependencies:
   - name: ui
     version: 1.0.0
-    repository: https://https://raw.githubusercontent.com/czm41k/ui/master
+    repository: https://raw.githubusercontent.com/czm41k/ui/master
 
   - name: post
     version: 1.0.0
-    repository: https://https://raw.githubusercontent.com/czm41k/post/master
+    repository: https://raw.githubusercontent.com/czm41k/post/master
 
   - name: comment
     version: 1.0.0
-    repository: https://https://raw.githubusercontent.com/czm41k/comment/master
+    repository: https://raw.githubusercontent.com/czm41k/comment/master
 
   - name: mongodb
     version: 0.4.18
