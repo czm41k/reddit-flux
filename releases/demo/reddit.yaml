@@ -1,0 +1,19 @@
+apiVersion: flux.weave.works/v1beta1
+kind: HelmRelease
+---
+metadata:
+  name: reddit-dev
+  namespace: dev
+  annotations:
+    flux.weave.works/automated: "true"
+    flux.weave.works/tag.chart-image: glob:dev-*
+spec:
+  releaseName: reddit-dev
+  chart:
+    git: git@github.com:czm41k/reddit-flux
+    path: charts/reddit
+    ref: master
+  # values:
+  #   image: czm41k/podinfo:dev-kb9lm91e
+  #   replicaCount: 1
+...
