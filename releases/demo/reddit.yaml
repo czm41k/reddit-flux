@@ -2,13 +2,13 @@
 apiVersion: flux.weave.works/v1beta1
 kind: HelmRelease
 metadata:
-  name: reddit-dev
-  namespace: dev
+  name: reddit-demo
+  namespace: demo
   annotations:
     flux.weave.works/automated: "true"
     flux.weave.works/tag.chart-image: glob:dev-*
 spec:
-  releaseName: reddit-dev
+  releaseName: reddit-demo
   chart:
     git: git@github.com:czm41k/reddit-flux
     path: charts/reddit
