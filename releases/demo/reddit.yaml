@@ -13,7 +13,7 @@ spec:
     git: git@github.com:czm41k/reddit-flux
     path: charts/reddit
     ref: master
-  # values:
-  #   image: czm41k/podinfo:dev-kb9lm91e
-  #   replicaCount: 1
+  values:
+    ui:
+      image: docker.io/czm41k/post:demo-1
 ...
