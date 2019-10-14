@@ -20,12 +20,12 @@ spec:
     ui:
       image:
         repository: czm41k/ui
-        tag: demo
+        tag: 0.1.0
     post:
       image:
         repository: czm41k/post
-        tag: 0.0.2
+        tag: 0.1.0
     comment:
       image:
         repository: czm41k/comment
-        tag: tiller
+        tag: 0.1.0
