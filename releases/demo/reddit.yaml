@@ -6,7 +6,7 @@ metadata:
   namespace: demo
   annotations:
     flux.weave.works/automated: "true"
-    flux.weave.works/tag.chart-image: glob:demo-*
+    flux.weave.works/tag.chart-image: semver:*
 spec:
   releaseName: reddit-demo
   chart:
@@ -17,12 +17,12 @@ spec:
     ui:
       image:
         repository: czm41k/ui
-        tag: latest
+        tag: 0.0.5
     post:
       image:
         repository: czm41k/post
-        tag: latest
+        tag: 0.0.5
     comment:
       image:
         repository: czm41k/comment
-        tag: latest
+        tag: 0.0.5
