@@ -17,12 +17,12 @@ spec:
     ui:
       image:
         repository: czm41k/ui
-        tag: demo
+        tag: latest
     post:
       image:
         repository: czm41k/post
-        tag: demo-1
+        tag: latest
     comment:
       image:
         repository: czm41k/comment
-        tag: demo-1
+        tag: latest
