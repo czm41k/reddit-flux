@@ -16,14 +16,14 @@ spec:
   values:
     ui:
       image:
-        repository: https://index.docker.io/czm41k/ui
+        repository: czm41k/ui
         tag: demo-1
     post:
       image:
-        repository: https://index.docker.io/czm41k/post
+        repository: czm41k/post
         tag: demo-1
     comment:
       image:
-        repository: https://index.docker.io/czm41k/comment
+        repository: czm41k/comment
         tag: demo-1
 ...
