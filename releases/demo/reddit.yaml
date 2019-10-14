@@ -6,7 +6,7 @@ metadata:
   namespace: demo
   annotations:
     flux.weave.works/automated: "true"
-    flux.weave.works/tag.chart-image: semver:~0.0
+    flux.weave.works/tag.chart-image: semver:~0.1
 spec:
   releaseName: reddit-demo
   chart:
@@ -25,4 +25,4 @@ spec:
     comment:
       image:
         repository: czm41k/comment
-        tag: tiller
+        tag: 0.0.5
