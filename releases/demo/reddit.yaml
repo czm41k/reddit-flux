@@ -25,4 +25,4 @@ spec:
     comment:
       image:
         repository: czm41k/comment
-        tag: 0.0.5
+        tag: tiller
