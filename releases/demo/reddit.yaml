@@ -17,7 +17,7 @@ spec:
     ui:
       image:
         repository: czm41k/ui
-        tag: demo-1
+        tag: demo
     post:
       image:
         repository: czm41k/post
@@ -26,4 +26,3 @@ spec:
       image:
         repository: czm41k/comment
         tag: demo-1
-...
