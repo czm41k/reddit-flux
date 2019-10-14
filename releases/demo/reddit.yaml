@@ -15,5 +15,15 @@ spec:
     ref: master
   values:
     ui:
-      image: docker.io/czm41k/post:demo-1
+      image:
+        repository: https://index.docker.io/czm41k/ui
+        tag: demo-1
+    post:
+      image:
+        repository: https://index.docker.io/czm41k/post
+        tag: demo-1
+    comment:
+      image:
+        repository: https://index.docker.io/czm41k/comment
+        tag: demo-1
 ...
