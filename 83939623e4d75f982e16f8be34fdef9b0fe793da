@@ -1,0 +1,1 @@
+{"jobID":"ed567c59-f3e0-dde1-55d6-e311fab0f252","spec":{"type":"policy","cause":{"Message":"","User":"czm41k \u003cetselikov@express42.com\u003e"},"spec":{"demo:helmrelease/reddit-demo":{"add":{"tag_all":"semver:~0.1"},"remove":{}}}},"result":null}
