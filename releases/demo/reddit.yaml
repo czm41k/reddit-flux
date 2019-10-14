@@ -17,12 +17,12 @@ spec:
     ui:
       image:
         repository: czm41k/ui
-        tag: latest
+        tag: demo
     post:
       image:
         repository: czm41k/post
-        tag: latest
+        tag: 0.0.2
     comment:
       image:
         repository: czm41k/comment
-        tag: latest
+        tag: tiller
