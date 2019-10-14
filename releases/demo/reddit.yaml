@@ -5,7 +5,7 @@ metadata:
   name: reddit-demo
   namespace: demo
   annotations:
-    flux.weave.works/tag.chart-image: semver:~0.1
+    # flux.weave.works/tag.chart-image: semver:~0.1
     fluxcd.io/automated: 'true'
     fluxcd.io/tag.comment: semver:~0.1
     fluxcd.io/tag.post: semver:~0.1
