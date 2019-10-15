@@ -3,7 +3,7 @@ apiVersion: flux.weave.works/v1beta1
 kind: HelmRelease
 metadata:
   name: reddit-demo
-  namespace: demo
+  namespace: demo-flux
   annotations:
     # flux.weave.works/tag.chart-image: semver:~0.1
     fluxcd.io/tag.comment: semver:~0.1
