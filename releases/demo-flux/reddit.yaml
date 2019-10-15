@@ -20,7 +20,7 @@ spec:
     ui:
       image:
         repository: czm41k/ui
-        tag: 0.1.1
+        tag: 0.1.2
     post:
       image:
         repository: czm41k/post
