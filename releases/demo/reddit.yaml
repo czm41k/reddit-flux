@@ -28,4 +28,4 @@ spec:
     comment:
       image:
         repository: czm41k/comment
-        tag: 0.1.0
+        tag: 0.1.1
