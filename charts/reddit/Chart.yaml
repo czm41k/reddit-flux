@@ -1,8 +1,9 @@
 ---
 name: reddit
-version: 0.2.2
+version: 0.2.3
 description: OTUS sample reddit application homework check
 maintainers:
   - name: czm41k
     email: etselikov@express42.com
+appVersion: 1.0
 ...
