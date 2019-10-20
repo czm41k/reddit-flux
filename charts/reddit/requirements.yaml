@@ -1,16 +1,15 @@
 ---
 dependencies:
   - name: ui
-    version: 1.2.0
-    repository: file://../ui
-
+    version: 1.0.0
+    repository: https://raw.githubusercontent.com/czm41k/helm-charts/master
   - name: post
-    version: 1.1.3
-    repository: file://../post
+    version: 1.0.0
+    repository: https://raw.githubusercontent.com/czm41k/helm-charts/master
 
   - name: comment
-    version: 1.1.3
-    repository: file://../comment
+    version: 1.0.0
+    repository: https://raw.githubusercontent.com/czm41k/helm-charts/master
 
   - name: mongodb
     version: 0.4.18
