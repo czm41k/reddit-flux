@@ -15,7 +15,7 @@ spec:
   chart:
     git: git@github.com:czm41k/reddit-helm-raw
     ref: master
-    path:
+    path: .
   values:
     ui:
       image:
