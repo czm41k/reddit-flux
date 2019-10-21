@@ -1,9 +1,0 @@
----
-name: reddit
-version: 0.2.2
-description: Flux Reddit
-maintainers:
-  - name: czm41k
-    email: etselikov@express42.com
-appVersion: 1.1
-...
