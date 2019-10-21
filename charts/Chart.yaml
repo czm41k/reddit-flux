@@ -1,6 +1,6 @@
 ---
 name: reddit
-version: 0.2.2
+version: 0.2.4
 description: Flux Reddit
 maintainers:
   - name: czm41k
