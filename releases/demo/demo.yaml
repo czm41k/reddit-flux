@@ -13,9 +13,9 @@ metadata:
 spec:
   releaseName: demo
   chart:
-    git: git@github.com:czm41k/reddit-helm-raw
+    git: git@github.com:czm41k/reddit-flux
     ref: master
-    path: .
+    path: charts/
   values:
     ui:
       image:
